@@ -1,0 +1,189 @@
+.headmain{
+	color: rgb(244, 7, 7);
+	text-align: center;
+	font-size: 30;
+	font-family: Verdana;
+}
+
+#mainback {
+	background-image: url("uzor2.png");
+    background-size: 100%;
+  }
+
+.strokeme{
+    font-size: 20px;
+    font: Tahoma;
+    color: black;
+    /*text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  */
+}
+.OutlineText {
+	font: Tahoma, Geneva, sans-serif;
+	font-size: 50px;
+    color: rgb(243, 121, 213);
+    text-shadow:
+    /* Outline 1 */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000, 
+    /* Outline 2 */
+    -2px -2px 0 #1a1b19,
+    2px -2px 0 #8cff00,
+    -2px 2px 0  #1a1b19,
+    2px 2px 0 #8cff00,  
+    -3px 0 0 #8cff00,
+    3px 0 0 #8cff00,
+    0 3px 0 #8cff00,
+    0 -3px 0 #8cff00; /* Terminate with a semi-colon */
+}
+
+
+select{color:#0330d4; font-size: 20px;width:300px;border: width 2px;} /*список значений*/
+
+
+/*Область выбора фотографий*/
+.selectfoto{
+    text-align: center;
+
+    border-radius: 20px;
+    margin: 20px;
+    width: 1846px;
+    height: 400px;
+    border:3px solid rgb(16, 15, 15);    
+    font-weight: bold;
+    font-size:24px;
+
+    box-shadow: 5px 5px 5px gray;
+
+position:relative;
+}
+
+/*классы левого главного меню выбора фотографий*/
+.selectfoto_mainmenu{
+    border:3px solid rgb(16, 15, 15);   
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+    width: 300px;
+    height: 50px;
+
+   
+
+    background-color: beige;
+    padding-top: 8px;
+    box-shadow: inherit;
+    cursor: pointer;
+    
+    /*visibility:visible;*/
+
+    
+}
+/*классы левого главного меню выбора фотографий*/
+.sf_mm1{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    
+}
+.sf_mm2{
+    position: absolute;
+    left: 40px;
+    top: 70px;
+}
+.sf_mm3{
+    position: absolute;
+    left: 40px;
+    top: 130px;
+}
+
+.sf_mm4{
+    position: absolute;
+    left: 40px;
+    top: 190px;
+}
+
+
+/*классы выпадающих подменю выбора фотографий*/
+/*.selectfoto_item
+{
+    border:3px solid rgb(16, 15, 15);   
+    border-radius: 10px;
+
+    width: 200px;
+    height: 50px;
+    background-color: beige;
+    margin:20px 70px 20px;
+    
+    padding-top: 20px;
+    box-shadow: inherit;
+    
+
+    visibility:visible;
+    display:inline-block;
+}
+*/
+
+
+.sf_i2_1
+    {  
+        position: absolute;
+        left: 360px;
+        top:70px;
+        display:none;
+        
+     }
+.sf_i2_2
+    {  
+         position: absolute;
+         left: 680px;
+         top:70px;
+         display:none;
+     }
+.sf_i2_3
+    {  
+         position: absolute;
+         left: 1000px;
+         top:70px;
+         display:none;
+     }
+.sf_i3_1
+     {  
+          position: absolute;
+          left: 360px;
+          top:130px;
+          display:none;
+      }
+ 
+ 
+.selectfoto_mainmenu:hover
+{
+         background-color:aquamarine;
+}
+     
+
+.sf_mm2:hover ~.sf_i2_1 {display:block}
+.sf_mm2:hover ~.sf_i2_2 {display:block}
+.sf_mm2:hover ~.sf_i2_3 {display:block}
+
+.sf_mm3:hover ~.sf_i3_1 {display:block}
+
+/*
+.selectfoto:active ~.selectfoto_item
+{
+    display:block;
+    background-color:aquamarine;
+}
+*/
+
+
+
+
+
