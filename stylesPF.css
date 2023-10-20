@@ -1,12 +1,12 @@
 .headmain{
-	color: rgb(244, 7, 7);
+	color: #36731A;
 	text-align: center;
 	font-size: 30;
 	font-family: Verdana;
 }
 
 #mainback {
-	background-image: url("uzor2.png");
+	background-image: url("main.jpg");
     background-size: 100%;
   }
 
@@ -52,7 +52,7 @@
 /*Область выбора фотографий*/
 .selectfoto{
     text-align: center;
-    background-color: rgba(95,158,78,0.3);
+    background-color: #F2EDD0;
     
     
     border-radius: 20px;
@@ -67,7 +67,7 @@
     box-shadow: 5px 5px 5px gray;
     
     list-style-type: none;
-    position:relative;
+    position:relative; 
 
     padding: 20px;
     display:grid;
@@ -86,7 +86,7 @@
     
     width: 300px;
     height: 40px;
-    background-color: beige;
+    background-color: #D9CA82;
     
     box-shadow: inherit;
     cursor: pointer;
